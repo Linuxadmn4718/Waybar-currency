@@ -22,7 +22,7 @@ set output '~/.config/hypr/waybar/scripts/Currency/rates.png'
 # Set titles and labels
 set title 'Exchange Rate Graph'
 
-set ylabel 'Exchange Rate (PHP)'
+set ylabel 'Exchange Rate'
 
 # Customize the grid and style
 #set grid
