@@ -12,7 +12,7 @@ home_directory = os.getenv('HOME')  # Gets the value of the HOME environment var
 file_path = os.path.join(home_directory, '.config/hypr/waybar/scripts/Currency/rate_history')
 
 def read_rate(file_path):
-    """Read the last conversion rate from a file."""
+    """Read the last conversion rate from rate_history."""
     try:
         with open(file_path, 'r') as file:
             lines = file.readlines()
