@@ -35,4 +35,5 @@ Edit gbp2php.py add your wise.com API key, and the currencies you want to conver
 
 Restart waybar wait a couple of minutes..
 
-I just did this as a python exercise. 
+
+I just did this as a python exercise, take from it what you will. 
