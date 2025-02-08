@@ -19,11 +19,17 @@ This Waybar module provides a live currency exchange display and additional feat
 
 
 To install:
-Clone the repository / download the zip. 
-Create a new folder in your /waybar/scripts/ called Currency 
+
+Clone the repository / download the zip.
+
+Create a new folder in your /waybar/scripts/ called Currency
+
 Copy files to your new ~/.config/hypr/waybar/scripts/Currency/ folder.
+
 Add the example module to your  config.jsonc
+
 Add the example style to you style.css
+
 
 Edit gbp2php.py add your wise.com API key, and the currencies you want to convert. 
 
