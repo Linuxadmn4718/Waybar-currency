@@ -2,6 +2,7 @@
 # Currency Exchange Waybar Module
 
 This Waybar module provides a live currency exchange display and additional features to enhance your experience with currency rates.
+Dependancies: yad, gnuplot
 
 ## Features
 
