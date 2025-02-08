@@ -6,6 +6,7 @@ This Waybar module provides a live currency exchange display and additional feat
 ## Features
 
 - **Live Currency Display**: Shows real-time exchange rates between the the chosen currencies.
+- 
 ![Live Currency](currency_live.png)
 
 - **History Graph**: Clicking on the widget displays a historical graph of the exchange rates. This helps in tracking fluctuations over a period.
