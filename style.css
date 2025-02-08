@@ -1,0 +1,23 @@
+
+
+ #custom-currency.enabled {
+    background: limegreen;
+    color: black;
+    font-size: 13px;
+}
+
+ #custom-currency.warning {
+    color: red;
+    font-size: 13px;
+}
+
+ #custom-currency.caution {
+    color: limegreen;
+    font-size: 13px;
+}
+
+ #custom-currency.disabled {
+    color: yellow;
+    font-size: 13px;
+}
+
