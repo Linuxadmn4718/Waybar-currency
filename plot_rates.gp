@@ -4,12 +4,12 @@ set terminal png size 800,600
 set key textcolor rgb "white"
 
 # Set title for the plot with white text
-set title "PHP Exchange Rate" textcolor rgb "white"  font ",16"
+set title "Exchange Rate" textcolor rgb "white"  font ",16"
 
 # Set the output type to a PNG image
 set terminal pngcairo size 800,600 enhanced font 'Verdana,10'
 
-set ylabel "Exchange Rate (PHP)" textcolor rgb "white"
+set ylabel "Exchange Rate" textcolor rgb "white"
 
 # Set x-tics with white text and smaller font size
 set xtics textcolor rgb "white" font ",6"
@@ -39,5 +39,5 @@ set obj 1 fillstyle solid 1.0 fillcolor rgb "#353535"
 set autoscale y
 
 
-# Plot the data from php.log
+# Plot the data from rate_history
 plot '~/.config/hypr/waybar/scripts/Currency/rate_history' using 0:1 with lines linecolor rgb "green" title 'Rate' 
