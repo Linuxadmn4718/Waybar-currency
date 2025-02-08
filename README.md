@@ -33,7 +33,7 @@ Add the example style to you style.css
 
 Edit gbp2php.py add your wise.com API key, and the currencies you want to convert. 
 
-Restart waybar wait a couple of minutes..
+Restart waybar wait a couple of minutes.. Remember exchange rates don't change over the weekend when the markets are closed.
 
 
 I just did this as a python exercise, take from it what you will. 
