@@ -2,7 +2,7 @@
     "custom/currency": {
         "format": "{}",
         "exec": "$HOME/.config/hypr/waybar/scripts/Currency/gbp2php.py",
-        "on-click": "$HOME/.config/hypr/waybar/scripts/Currency/show_graph.sh",
+        "on-click": "$HOME/.config/hypr/waybar/scripts/Currency/show_graph.py",
         "on-click-right": "$HOME/.config/hypr/waybar/scripts/Currency/Convert-gbp2php.py",
         "interval": 60,
         "return-type": "json"
