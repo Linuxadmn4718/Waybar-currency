@@ -27,10 +27,11 @@ Create a new folder in your /waybar/scripts/ called Currency
 
 Copy files to your new ~/.config/hypr/waybar/scripts/Currency/ folder.
 
-Add the example module to your  config.jsonc
+From ~/.config/hypr/waybar/scripts/Currency/ run sudo chmod +x Convert-gbp2php.py gbp3php.py show_graph.py
 
-Add the example style to you style.css
+Add the example module to your config.jsonc. Do not forget to add "custom/currency", to you modules-[LOCATION] (left,center,right)
 
+Add the example style to you style.css. Do not forget to add #custom-currency, to your list of modules in you styles.css.
 
 Edit gbp2php.py add your wise.com API key, and the currencies you want to convert. 
 
